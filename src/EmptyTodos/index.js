@@ -1,8 +1,11 @@
 import React from 'react';
+import './EmptyTodo.css';
 
 function EmptyTodos() {
   return (
-    <p>¡Crea tu primer TODO!</p>
+    <div className='message-container'>
+      <p>¡No hay tareas para mostrar!</p>
+    </div>
   );
 }
 
