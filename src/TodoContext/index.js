@@ -40,7 +40,11 @@ function TodoProvider({ children }) {
     const todoIndex = newTodos.findIndex(
       (todo) => todo.text === text
     );
-    newTodos[todoIndex].completed = true;
+    if (newTodos[todoIndex].completed === false) {
+      newTodos[todoIndex].completed = true;
+    } else if (newTodos[todoIndex].completed === true) {
+      newTodos[todoIndex].completed = false;      
+    }
     saveTodos(newTodos);
   };
 

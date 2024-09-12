@@ -1,6 +1,6 @@
 .form {
   grid-area: form;
-  box-shadow: 2px 3px 5px black;
+  box-shadow: 5px 5px 5px black;
   border-radius: 16px;
   margin: 5px 5px;
   background: linear-gradient(#299bf8, #34a9f7);

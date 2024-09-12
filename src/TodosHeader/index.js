@@ -1,11 +1,12 @@
 import React from 'react';
 import './TodoHeader.css';
+import { DevInfo } from './DevInfo';
 
 function TodoHeader() {
   return (
     <div className='header-container'>
       <h1 className='title'>Listapp de tareas</h1>
-      <p className='info'>Developed by me</p>
+      <DevInfo />
     </div>
   )
 }
