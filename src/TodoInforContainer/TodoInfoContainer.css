@@ -6,3 +6,8 @@
   background: linear-gradient(#299bf8, #34a9f7);
   margin-left: 12px;
 }
+@media only screen and (max-width: 860px){
+  .tasks{
+    margin-left: 5px;
+  }
+}

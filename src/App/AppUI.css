@@ -1,9 +1,35 @@
-.main-general-container {
-  display: grid;
-  grid-template-columns: 15% 15% 25% 25% 20%;
-  grid-template-rows: 15% 85%;
-  grid-template-areas: 
-    "header header header header header"
-    "form form tasks tasks tasks";
-  height: 100%;
+@media only screen and (min-width: 861px){
+  .main-general-container {
+    display: grid;
+    grid-template-columns: 15% 15% 25% 25% 20%;
+    grid-template-rows: 15% 85%;
+    grid-template-areas: 
+      "header header header header header"
+      "form form tasks tasks tasks";
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .main-general-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 40% 50%;
+    grid-template-areas: 
+      "header"
+      "form"
+      "tasks";
+    row-gap: 24px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main-general-container{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 40% 45%;
+    grid-template-areas: 
+      "header"
+      "form"
+      "tasks";
+    row-gap: 24px;
+  }
 }
