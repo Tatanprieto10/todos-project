@@ -5,7 +5,10 @@
   justify-content: center;
   align-items: center;
   margin-top: 24px;
-  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+  box-shadow: 4px 4px 6px rgb(0, 0, 0);
+  border-radius: 32px;
+  background: rgb(74, 112, 236);
+  
 }
 
 .TodoItem-p {

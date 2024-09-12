@@ -2,4 +2,10 @@
   margin: 0;
   padding: 0 0 56px 0;
   list-style: none;
+  overflow-y: scroll;
+  height: 300px;
+  margin: 12px 24px;
+}
+.TodoList::-webkit-scrollbar{
+  display: none;
 }
