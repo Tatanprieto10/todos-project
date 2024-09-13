@@ -1,10 +1,12 @@
 import React from 'react';
 import { TodoContext } from '../TodoContext';
 import './todoForm2.css';
+import { AdditionError } from './AdditionError';
 
 function TodoForm2() {
   const {
-    addTodo
+    addTodo,
+    warningErrorStatus
   } = React.useContext(TodoContext);
   const [newTodoValue, setNewTodoValue] = React.useState('');
 
@@ -32,6 +34,9 @@ function TodoForm2() {
             className="TodoForm-button TodoForm-button--add"
           >Añadir</button>
         </div>
+        {warningErrorStatus && 
+          <AdditionError />
+        }
       </form>
     </div>
   )

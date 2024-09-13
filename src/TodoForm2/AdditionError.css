@@ -1,0 +1,16 @@
+.warning-container{
+  display: flex;
+  margin-top: 60px;
+  padding: 0 28px;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #8fccff;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  border: 2px solid rgb(165, 48, 48);
+}
+.warning-message{
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 12px;
+}

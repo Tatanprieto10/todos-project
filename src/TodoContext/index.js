@@ -12,6 +12,7 @@ function TodoProvider({ children }) {
   } = useLocalStorage('TODOS_V1', []);
   const [searchValue, setSearchValue] = React.useState('');
   const [openModal, setOpenModal] = React.useState(false);
+  const [warningErrorStatus, setWarningErrorStatus] = React.useState(false);
 
   const completedTodos = todos.filter(
     todo => !!todo.completed
@@ -28,10 +29,16 @@ function TodoProvider({ children }) {
 
   const addTodo = (text) => {
     const newTodos = [...todos];
-    newTodos.push({
-      text,
-      completed: false,
-    });
+
+    if (text == ""){
+      setWarningErrorStatus(true);
+    } else {
+      newTodos.push({
+        text,
+        completed: false,
+      });
+      setWarningErrorStatus(false);
+    }
     saveTodos(newTodos);
   };
 
@@ -71,6 +78,8 @@ function TodoProvider({ children }) {
       deleteTodo,
       openModal,
       setOpenModal,
+      warningErrorStatus,
+      setWarningErrorStatus
     }}>
       {children}
     </TodoContext.Provider>
