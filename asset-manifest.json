@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/todos-project/static/css/main.a501d6bd.css",
-    "main.js": "/todos-project/static/js/main.6811c1df.js",
+    "main.css": "/todos-project/static/css/main.4b9ddf6c.css",
+    "main.js": "/todos-project/static/js/main.c3f5f663.js",
+    "static/media/warning.svg": "/todos-project/static/media/warning.bb551cdb1da31d969041f66bae961460.svg",
     "index.html": "/todos-project/index.html",
     "static/media/delete.svg": "/todos-project/static/media/delete.f8e04b980f4a347b447ca1bb82768b46.svg",
     "static/media/check.svg": "/todos-project/static/media/check.fa4fb594b16385306a04b9c87c0feb55.svg",
-    "main.a501d6bd.css.map": "/todos-project/static/css/main.a501d6bd.css.map",
-    "main.6811c1df.js.map": "/todos-project/static/js/main.6811c1df.js.map"
+    "main.4b9ddf6c.css.map": "/todos-project/static/css/main.4b9ddf6c.css.map",
+    "main.c3f5f663.js.map": "/todos-project/static/js/main.c3f5f663.js.map"
   },
   "entrypoints": [
-    "static/css/main.a501d6bd.css",
-    "static/js/main.6811c1df.js"
+    "static/css/main.4b9ddf6c.css",
+    "static/js/main.c3f5f663.js"
   ]
 }
