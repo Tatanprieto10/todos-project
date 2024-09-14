@@ -1,6 +1,6 @@
 # To-Do List App
 
-##English
+## _English_
 
 This is a To-Do List application where users can add tasks, mark them as complete, or delete them. **Note:** The app is fully in Spanish and was developed using **ReactJS**.
 
@@ -29,7 +29,7 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/Tatanprieto10/todos-project
 
-##Español
+## _Español_
 
 Este es un proyecto de una aplicación de lista de tareas (_To-Do List_) que permite a los usuarios agregar tareas, marcarlas como completadas o eliminarlas. La app está completamente en español y fue desarrollada con **ReactJS**.
 
