@@ -30,7 +30,7 @@ function TodoProvider({ children }) {
   const addTodo = (text) => {
     const newTodos = [...todos];
 
-    if (text == ""){
+    if (text === ""){
       setWarningErrorStatus(true);
     } else {
       newTodos.push({
